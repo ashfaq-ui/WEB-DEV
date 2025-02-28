@@ -1,0 +1,52 @@
+/* Footer styles */
+footer {
+    background-color:#4B6F44; /* Use the same main color as in the form */
+    color: var(--bg-color); /* Set text color to the background color of the form */
+    padding-bottom: 5px; /* Adjust padding as needed */
+    text-align: center;
+  }
+  
+  .footer-content {
+    padding: 0;
+    margin: 0; /* Adjust top margin */
+  }
+  
+  .footer-content h5 {
+    
+    font-size: 30px;
+    margin: auto;
+    color: var(--bg-color); /* Set text color to the background color of the form */
+  }
+  
+  .socialmedia {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  .socialmedia li {
+    display: inline-block;
+    margin: 0 10px; /* Adjust horizontal spacing */
+    
+  }
+  
+  .socialmedia a {
+    color: var(--bg-color); /* Set text color to the background color of the form */
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  .socialmedia a:hover i {
+    color: var(--main-color); /* Change icon color on hover */
+  }
+  footer img{
+    padding: 0;
+    margin: 0;
+  }
+  footer .footer-bottom p{
+    color: black;
+    font-size: medium;
+    font-weight: 200;
+  }
+  
+  
